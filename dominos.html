@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dominos Menu</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #FFF3E0;  
+			padding: 20px;
+		}
+
+		h1 {
+			text-align: center;
+			color: #e65100;
+		}
+
+		.menu-container {
+			width: 60%;
+			margin: auto;
+			background-color: #ffffff;
+			border: 1px solid #000;
+			border-radius: 5px;
+			overflow: hidden;
+		}
+
+		.menu-row {
+			display: flex;
+			border-bottom: 1px solid #000;
+		}
+
+		.menu-row:last-child {
+			border-bottom: none;
+		}
+
+		.menu-header {
+			background-color: #FFE0B2;
+			color: #bf360c;
+			font-weight: bold;
+		}
+
+		.menu-cell {
+			flex: 1;
+			padding: 10px;
+			text-align: center;
+			border-right: 1px solid #000;
+		}
+
+		.menu-cell:last-child {
+			border-right: none;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Dominos Food Menu</h1>
+
+	<div class="menu-container">
+		<div class="menu-row menu-header">
+			<div class="menu-cell">Item</div>
+			<div class="menu-cell">Price</div>
+		</div>
+		<div class="menu-row">
+			<div class="menu-cell">Veg Corn Pizza</div>
+			<div class="menu-cell">100/-</div>
+		</div>
+		<div class="menu-row">
+			<div class="menu-cell">Mixed Vegetables Pizza</div>
+			<div class="menu-cell">200/-</div>
+		</div>
+		<div class="menu-row">
+			<div class="menu-cell">Chicken Pizza</div>
+			<div class="menu-cell">400/-</div>
+		</div>
+		<div class="menu-row">
+			<div class="menu-cell">2 Combo Meals</div>
+			<div class="menu-cell">800/-</div>
+		</div>
+		<div class="menu-row">
+			<div class="menu-cell">4 Combo Meals</div>
+			<div class="menu-cell">1000/-</div>
+		</div>
+	</div>
+</body>
+</html>

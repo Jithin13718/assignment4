@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFF3E0;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .login-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e65100;
+            margin-bottom: 20px;
+        }
+
+        .form-container {
+            display: inline-block;
+            background: #ffffff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .form-row {
+            margin: 15px 0;
+            text-align: left;
+        }
+
+        .form-row label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+            color: #5d4037;
+        }
+
+        .form-row input {
+            padding: 6px;
+            width: 200px;
+        }
+
+        .submit-btn {
+            margin-top: 15px;
+            padding: 8px 20px;
+            background-color: #e65100;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .submit-btn:hover {
+            background-color: #bf360c;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-title">Login</div>
+    <div class="form-container">
+        <form>
+            <div class="form-row">
+                <label>Username:</label>
+                <input type="text">
+            </div>
+            <div class="form-row">
+                <label>Password:</label>
+                <input type="password">
+            </div>
+            <div class="form-row" style="text-align:center;">
+                <input type="submit" value="Login" class="submit-btn">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
